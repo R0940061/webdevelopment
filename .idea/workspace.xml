@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,6 +35,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -60,6 +62,9 @@
       <workItem from="1665228368903" duration="12463000" />
       <workItem from="1665345706890" duration="1055000" />
       <workItem from="1665577572338" duration="9503000" />
+      <workItem from="1665907387069" duration="407000" />
+      <workItem from="1666184802098" duration="3535000" />
+      <workItem from="1666439086700" duration="7701000" />
     </task>
     <servers />
   </component>
