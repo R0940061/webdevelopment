@@ -1,0 +1,10 @@
+.checked{
+    background-image: url("https://thumbs.dreamstime.com/b/check-mark-symbol-box-icon-135441997.jpg");
+    background-size: 20PX, 20PX;
+    background-position-x: 0;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+ul{
+    list-style: none;
+}

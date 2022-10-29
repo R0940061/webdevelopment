@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,6 +35,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohamed/Downloads/opdracht resume(1)&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -42,10 +43,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_6\opdracht_3\style_opdracht_3" />
+      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_6\opdracht_1\style_opdracht_1" />
       <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_4\foto's" />
       <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_4\opdracht_5" />
       <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_3" />
-      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_3\homepage" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +67,8 @@
       <workItem from="1665907387069" duration="407000" />
       <workItem from="1666184802098" duration="3535000" />
       <workItem from="1666439086700" duration="10465000" />
-      <workItem from="1666723774206" duration="2133000" />
+      <workItem from="1666723774206" duration="10335000" />
+      <workItem from="1667051929304" duration="2288000" />
     </task>
     <servers />
   </component>
