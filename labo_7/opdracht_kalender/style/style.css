@@ -1,0 +1,51 @@
+.datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.datagrid table td, .datagrid table th {
+    padding: 1px 0;
+    border-width: 5px;
+    border-color: black;
+}
+
+
+}
+
+.datagrid table tbody .alt td {
+    color: rgb(200,190,240);
+}
+
+.datagrid table tbody td:first-child {
+    border-left: black;
+}
+
+.datagrid table tbody tr:last-child td {
+    border-bottom: black;
+}
+
+.alt{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+    font-family: serif;
+}
+
+.weekend{
+    background-color: rgb(250,13,120);
+}
+
+.vrij{
+    background-color: rgb(250,120,120);
+}
+
+.vorige{
+    background-color: rgb(225,220,220)
+}
+
+.month{
+    background-color: #00557F;
+    font-size: large;
+    font-family: serif, serif;
+
+}

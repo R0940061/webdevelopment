@@ -1,0 +1,36 @@
+.head {
+    background-image: url("../photos/header.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 16px;
+}
+body{
+    width: 1200px;
+}
+.art{
+    color: white;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+}
+
+nav a{
+    color: green;
+}
+
+article{
+    background-color: lightgrey;
+    font-family: sans-serif, sans-serif;
+    font-size: medium;
+    margin: 0 auto;
+}
+
+h1{
+    color: black;
+    font-size: xx-large;
+    font-family: sans-serif, sans-serif;
+    text-decoration: underline;
+    margin: 10px 50px 50px auto;
+    padding-top: 50px;
+}

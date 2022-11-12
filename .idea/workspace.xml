@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,11 +43,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_7\opgave nature blog\photos" />
+      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_7" />
       <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_6\opdracht_3\style_opdracht_3" />
       <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_6\opdracht_1\style_opdracht_1" />
       <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_4\foto's" />
-      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_4\opdracht_5" />
-      <recent name="C:\Users\Mohamed\OneDrive\Documenten\school\web development\gethub\webdevelopment\labo_3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +68,8 @@
       <workItem from="1666184802098" duration="3535000" />
       <workItem from="1666439086700" duration="10465000" />
       <workItem from="1666723774206" duration="10335000" />
-      <workItem from="1667051929304" duration="2856000" />
+      <workItem from="1667051929304" duration="3124000" />
+      <workItem from="1668000085483" duration="20204000" />
     </task>
     <servers />
   </component>
