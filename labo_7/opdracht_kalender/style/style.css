@@ -1,15 +1,13 @@
 .datagrid table {
     border-collapse: collapse;
     text-align: left;
-    width: 100%;
+    width: 30%;
 }
 
 .datagrid table td, .datagrid table th {
     padding: 1px 0;
-    border-width: 5px;
+    border-width: 10px;
     border-color: black;
-}
-
 
 }
 

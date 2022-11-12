@@ -1,3 +1,4 @@
+
 .head {
     background-image: url("../photos/header.jpg");
     background-repeat: no-repeat;
@@ -6,9 +7,13 @@
 }
 body{
     width: 1200px;
+    margin: auto;
 }
 .art{
     color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+
 }
 nav{
     background-color: black;
@@ -26,7 +31,7 @@ article{
     margin: 0 auto;
 }
 
-h1{
+article h1{
     color: black;
     font-size: xx-large;
     font-family: sans-serif, sans-serif;

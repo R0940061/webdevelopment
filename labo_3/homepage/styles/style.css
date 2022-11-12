@@ -3,9 +3,9 @@ h1{
 }
 
 a{
-    border: azure;
-    width: 50px;
+    color: #EF233C;
 }
+
 ul{
     color: #2B2D42;
     background-color: honeydew;
@@ -13,10 +13,6 @@ ul{
     padding: 10px;
     font-family: Arial, sans-serif;
     font-style: oblique;
-}
-a{
-    margin: auto;
-    background-size: 500px 500PX;
 }
 
 .datagrid table {
@@ -36,9 +32,7 @@ a{
 
 .datagrid table thead th {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
-    background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
-    background-color:#006699;
     color:#FFFFFF;
     font-size: 15px;
     font-weight: bold;
@@ -86,17 +80,23 @@ a{
     display: inline;
 }
 
-
-}
-
 .datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover {
     text-decoration: none;
     border-color: #006699;
     color: #FFFFFF;
-    background: none;
     background-color:#00557F;
 }
 
 .onbekend {
     background-color:red;
 }
+
+.pic {
+    width: 400px;
+    height: auto;
+}
+
+.jjk{
+    background-color: aquamarine;
+}
+
