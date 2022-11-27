@@ -1,0 +1,15 @@
+.area {
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+div {
+    text-align: center;
+}
+
+div {
+    display: block;
+}

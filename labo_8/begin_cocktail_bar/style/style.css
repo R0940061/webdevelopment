@@ -1,0 +1,39 @@
+html{
+    width: 95%;
+    align-items: center;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 ,h2{
+    color: #007E7E;
+}
+
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+
+body, section{
+    width: 70%;
+}
+
+footer{
+    font-size:0.6em;
+}
+
+.blue{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: dotted white;
+}
