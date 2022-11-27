@@ -21,9 +21,27 @@ h1{
 h2{
     font-size: 130%;
 }
-
-body, section{
+section {
     width: 70%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px hidden;
+}
+
+.week {
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    vertical-align:auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+a{
+    color: brown;
 }
 
 footer{
