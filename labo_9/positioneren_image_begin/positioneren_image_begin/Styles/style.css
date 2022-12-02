@@ -1,0 +1,30 @@
+article{
+    margin: 10px;
+    border: 1px solid black;
+    height: 260px;
+    padding: 0 10px 0 10px;
+}
+
+article:nth-child(odd) > p > img{
+    float: left;
+    margin-right: 20px;
+}
+
+article:nth-child(even) > p >img{
+    float: right;
+    margin-left: 20px;
+}
+
+body{
+    width: 60%;
+    margin: 10px auto;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+h2{
+    font-weight: bold;
+
+}
