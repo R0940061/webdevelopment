@@ -3,26 +3,29 @@ html{
     align-content: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 header{
     height: 200px;
-    background-image: url("../fotos/bgsky3.jpg");
     text-align: center;
+    margin: auto;
     color: darkblue;
+    position: relative;
+    background-image: url("../fotos/bgsky3.jpg");
+
 }
 
 header img{
-    align-content: flex-end;
-    justify-content: right;
+    float: right;
     position: absolute;
+    right: 90px;
+    bottom: 60px;
 }
 
 .uppertitle{
     font-size: 300%;
-    margin: 0;
+    margin: auto;
 }
 .lowertittle{
     font-size: 240%;
@@ -32,7 +35,7 @@ aside{
     width: 250px;
     box-sizing: border-box;
     display: inline-block;
-    float: right;
+    float:right;
     vertical-align:auto;
     border: 1px solid #999999;
     background-color: #dddddd;
@@ -49,21 +52,28 @@ aside h3{
     color: white;
     font-size: 120%;
     text-align: center;
+    position: relative;
 }
 
 section{
     width: 700px;
-    padding-right: 10px;
+   padding-right: 10px;
+}
+
+.tekst{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    margin-left: 150px;
 }
 .baba{
     background-color: white;
     color: black;
     text-align: left;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 30px;
-    margin-right: 20px;
-    margin-left: 20px;
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin: 20px 20px 0 20px;
 }
 
 .blue{
@@ -74,32 +84,38 @@ section{
 .foto{
     height: 180px;
     width: 180px;
-    padding: 10px;
-    margin: 20px;
-    border: 1px dotted #999999;
+    padding: 10px 10px 10px 10px;
+    border: 1px dashed #999999;
+    background-color: white;
+    margin: 10px;
+
 }
 
 article{
     background-color: #999999;
-    box-sizing: border-box;
-    margin-right: 15px;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    padding: 10px 10px 10px 10px;
 }
 
 footer{
     background-color: #666666;
     color: white;
     line-height: 2em;
+    display: flex;
+    padding-left: 120px;
+}
+
+footer:last-child{
     padding-left: 120px;
 }
 
 footer a:hover{
-    background-color: red;
     color: red;
 }
 
-.copyright{
+div p{
     text-align: center;
     color: black;
     background-color: white;
