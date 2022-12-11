@@ -32,18 +32,17 @@ figcaption {
 	font-size: .8em;
 }
 
-
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
 @media (min-width: 767px) {
 	body{
 		background-color: rosybrown;
 	}
-	main{
-		display: flex;
-		flex-wrap: wrap;
-	}
 	figure{
-		max-width: 40%;
-		margin-right: 40px
+		max-width: 35%;
+		margin-right: 35px
 	}
 
 
@@ -53,12 +52,8 @@ figcaption {
 		background-color: cornflowerblue;
 		padding-left:30px;
 	}
-	main{
-		display: flex;
-		flex-wrap: wrap;
-	}
 	figure{
-		max-width: 27%;
+		max-width: 25%;
 		margin-right: 20px;
 	}
 }
