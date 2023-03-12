@@ -1,28 +1,26 @@
-let an1 = 0;
-let an2 = 0;
-
-const countOccurrences = (text) => {
-    let index = text.indexOf("an");
-    while (index !== -1) {
-        an1++;
-        index = text.indexOf("an", index + 1);
-    }
-
-    index = text.lastIndexOf("an");
-    while (index !== -1) {
-        an2++;
-        index = text.lastIndexOf("an", index - 1);
-    }
-};
-
 const setup = () => {
-    const textInput = document.querySelector('input[type="text"]');
-    const resultParagraph = document.getElementById("result");
-    an1 = 0;
-    an2 = 0;
-    countOccurrences(textInput.value);
-    resultParagraph.textContent = `deze zin bevat ${an1} keer an en voor lastindexof is het ${an2}`;
-};
+    let button = document.getElementById("button");
+    button.addEventListener("click", berekenen)
+    button.addEventListener("click", berekenen2)
+}
+const berekenen = () => {
+    let count = 0;
+    let index = 0;
+    while ((index = setup.indexOf("an", index)) !== -1){
+        count += 2
+    }
+    console.log("deze zin bevat an "+ index + "keer");
+    document.getElementById("input").innerHTML = document.getElementById("text").value;
+    document.getElementById("output").innerHTML = index;
+}
 
-const button = document.getElementById("calculate-button");
-button.addEventListener("click", setup);
+const berekenen2 = () => {
+    let count = 0
+    while (index !== -1){
+        count++;
+    index = text.lastIndexOf("an", index -1);
+    }
+
+    cosole.log(count);
+}
+window.addEventListener('load',setup);

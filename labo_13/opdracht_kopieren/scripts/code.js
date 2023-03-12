@@ -10,4 +10,10 @@ const kopieer = () => {
     txtOutput.innerHTML=tekst;
 }
 
-window.addEventListener("load", setup);istener("load", setup);
+window.addEventListener("load", setup);
+
+function istener(load, setup) {
+
+}
+
+istener("load", setup);

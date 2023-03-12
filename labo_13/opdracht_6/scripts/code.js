@@ -10,4 +10,10 @@ const kopieer = () => {
     console.log(tekst);
 }
 
-window.addEventListener("load", setup);stener("load", setup);
+window.addEventListener("load", setup);
+
+function stener(load, setup) {
+
+}
+
+stener("load", setup);

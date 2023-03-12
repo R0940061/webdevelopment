@@ -1,9 +1,8 @@
-const setup = () => {
+function tekstNaarConsole(){
 
-        let input = document.getElementById("input-text");
-        let inputText = input.value;
-        let output = inputText.split("").join(" ");
-        console.log(output);
+        let tekst = document.getElementById("tekstInvoer").value;
+       let gescheidenTekst = tekst.split("").join(" ");
+        console.log(gescheidenTekst);
 
 }
-window.addEventListener("load", setup);
+window.addEventListener("load", tekstNaarConsole);
