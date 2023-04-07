@@ -1,43 +1,39 @@
 const tilesContainer = document.querySelector(".tiles");
-const colors = ["aqua", "crimson", "blue", "gold", "greenyellow", "teal"];
-const colorsPicklist = [...colors, ...colors];
-const tileCount = colorsPicklist.length;
-
+const audioFiles = ["audio/1.mp3", "audio/2.mp3", "audio/3.mp3", "audio/4.mp3", "audio/5.mp3", "audio/6.mp3"];
+const audioPicklist = [...audioFiles, ...audioFiles];
+const tileCount = audioPicklist.length;
 
 let revealedCount = 0;
 let activeTile = null;
 let awaitingEndOfMove = false;
 
-function buildTile(color) {
+function buildTile(audioFile) {
     const element = document.createElement("div");
 
     element.classList.add("tile");
-    element.setAttribute("data-color", color);
+    element.setAttribute("data-audio", audioFile);
     element.setAttribute("data-revealed", "false");
 
     element.addEventListener("click", () => {
         const revealed = element.getAttribute("data-revealed");
 
-        if (
-            awaitingEndOfMove
-            || revealed === "true"
-            || element === activeTile
-        ) {
+        if (awaitingEndOfMove || revealed === "true" || element === activeTile) {
             return;
         }
 
+        const audio = new Audio(audioFile);
+        audio.play();
 
-        element.style.backgroundColor = color;
+        element.style.backgroundColor = "white";
 
         if (!activeTile) {
             activeTile = element;
-
             return;
         }
 
-        const colorToMatch = activeTile.getAttribute("data-color");
+        const audioToMatch = activeTile.getAttribute("data-audio");
 
-        if (colorToMatch === color) {
+        if (audioToMatch === audioFile) {
             element.setAttribute("data-revealed", "true");
             activeTile.setAttribute("data-revealed", "true");
 
@@ -66,12 +62,11 @@ function buildTile(color) {
     return element;
 }
 
-
 for (let i = 0; i < tileCount; i++) {
-    const randomIndex = Math.floor(Math.random() * colorsPicklist.length);
-    const color = colorsPicklist[randomIndex];
-    const tile = buildTile(color);
+    const randomIndex = Math.floor(Math.random() * audioPicklist.length);
+    const audioFile = audioPicklist[randomIndex];
+    const tile = buildTile(audioFile);
 
-    colorsPicklist.splice(randomIndex, 1);
+    audioPicklist.splice(randomIndex, 1);
     tilesContainer.appendChild(tile);
 }

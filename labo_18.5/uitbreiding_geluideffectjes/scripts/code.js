@@ -3,6 +3,9 @@ const colors = ["aqua", "crimson", "blue", "gold", "greenyellow", "teal"];
 const colorsPicklist = [...colors, ...colors];
 const tileCount = colorsPicklist.length;
 
+// Create audio elements for flip and match sounds
+const flipSound = new Audio("sounds/flip.mp3");
+const matchSound = new Audio("sounds/match.mp3");
 
 let revealedCount = 0;
 let activeTile = null;
@@ -15,23 +18,25 @@ function buildTile(color) {
     element.setAttribute("data-color", color);
     element.setAttribute("data-revealed", "false");
 
+    // Add event listener for tile click
     element.addEventListener("click", () => {
         const revealed = element.getAttribute("data-revealed");
 
         if (
             awaitingEndOfMove
             || revealed === "true"
-            || element === activeTile
+            || element == activeTile
         ) {
             return;
         }
 
+        // Play flip sound
+        flipSound.play();
 
         element.style.backgroundColor = color;
 
         if (!activeTile) {
             activeTile = element;
-
             return;
         }
 
@@ -40,6 +45,9 @@ function buildTile(color) {
         if (colorToMatch === color) {
             element.setAttribute("data-revealed", "true");
             activeTile.setAttribute("data-revealed", "true");
+
+            // Play match sound
+            matchSound.play();
 
             activeTile = null;
             awaitingEndOfMove = false;
@@ -65,8 +73,7 @@ function buildTile(color) {
 
     return element;
 }
-
-
+// Generate tiles and append to container
 for (let i = 0; i < tileCount; i++) {
     const randomIndex = Math.floor(Math.random() * colorsPicklist.length);
     const color = colorsPicklist[randomIndex];
