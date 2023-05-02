@@ -33,7 +33,12 @@ const storeSwatches = () => {
 };
 
 const restoreSwatches = () => {
-    const swatches = JSON.parse(localStorage.getItem("swatches")) || [];
-   
+
+    const swatches = JSON.parse(localStorage.getItem("swatches"))
+    for (let i = 0; i < swatches.length; i++) {
+        addSwatchComponent(swatches[i].slider1, swatches[i].slider2, swatches[i].slider3);
+
+    }
+
 };
 
