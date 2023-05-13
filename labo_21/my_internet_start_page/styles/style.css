@@ -1,0 +1,93 @@
+/* Center the container */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Style for the top section */
+.top-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.top-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.top-section input {
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.top-section button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Style for the history section */
+.history-section {
+    margin-top: 2rem;
+}
+
+.history-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Style for the cards */
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+
+.card-link {
+    padding: 10px
+}
+
+/* Theme colors for the different webpages */
+.google {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.youtube {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.instagram {
+    background-color: #e4405f;
+    color: #fff;
+}
+
+/* Hover effect for the Go button */
+.go-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
